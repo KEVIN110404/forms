@@ -2,6 +2,7 @@
 <html>
 <head>
    <title>Forms</title>
+   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <h1>
@@ -9,7 +10,8 @@
     </h1>
     <form>
         <fieldset>
-            <legend>Profile info</legend>
+            <legend><h2> STUDENT PROFILE</h2>
+            </legend>
             <label>Name
             </label>
             <input type="text" placeholder="Enter Your Name">
@@ -29,12 +31,17 @@
             <input type="radio" name="Gender"> Male <br>
             <input type="radio" name="Gender"> Female
             <br>
+
+            <label>Date of Birth</label>
+            <input type="date">
+            <br>
             <label>Phone Number
             </label>
             <input type="text" placeholder="Enter Your Number">
             <br>
             <label>Department</label>
             <select>
+                <option disabled selected value>---Choose an option</option>
                 <option>CSE</option>
                 <option>AI</option>
                 <option>IT</option>
@@ -43,12 +50,13 @@
             </select>
             <br><br>
             <label>Feedback</label><br>
-            <textarea cols="40" rows="5"></textarea>
+            <textarea cols="30" rows="1"></textarea>
             <br><br>
-
-            <input type="submit" value="Save my info!">
-            <input type="reset" value="Clear my info!">
-
+           
+           
+            <a href="" class="button"><input type="submit" value="Save my info!"></a>
+            <a href="" class="button alt-button"> <input type="reset" value="Clear my info!"></a>
+          
 
 
         </fieldset>
